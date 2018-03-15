@@ -27,11 +27,13 @@ h2 {
 h3 {
   font-size: 1em;
   margin-bottom: 0px;
+  font-weight: 300;
 }
 
 p {
   font-size: 1em;
   line-height: 1.5em;
+  color:#A5A8A8;
 
 }
 
@@ -66,8 +68,11 @@ li {
 }
 
 .portfolio_image {
-  width: 80%;
+  width: 45%;
+  display: inline-block;
 }
+
+
 
 #header {
   background-image: url("images/ivana-cajina-316244-unsplash.jpg");
@@ -90,19 +95,38 @@ ul {
   padding-left: 0px;
   padding-top: 0px;
   margin-top: 5px;
+  margin-left: -30px;
 }
 
 .svg-inline--fa{
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 30px;
 }
 
-.design_projects h2 {
+
+#design_projects h2 {
   margin-top: 50px;
 }
 
-.app_projects h2 {
+#design_projects a {
+  display: block;
+  margin-top: 10px;
+}
+
+#app_projects h2 {
   margin-top: 50px;
 }
+
+#info, #design_projects, #app_projects{
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #C3C9CF;
+}
+
+span {
+  color:#B2B0B2;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
